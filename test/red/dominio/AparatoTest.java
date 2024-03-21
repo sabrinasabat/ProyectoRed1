@@ -9,8 +9,8 @@ public class AparatoTest {
     @Test
     void testEncender(){
         Aparato microOndas = new Aparato();
-        microOndas.encender();
-        assertTrue(microOndas.getEncendido());
+        microOndas.encender(); // he encendido el microondas
+        assertTrue(microOndas.getEncendido()); // para consultar el estado. assertTrue es que estoy esperando un true
     }
 
     @Test
